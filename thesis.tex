@@ -1,0 +1,50 @@
+% Template by Yue Li, June 2017
+
+\documentclass[a4paper,12pt,twoside]{report}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3cm]{geometry}
+
+\include{thesis.preamble}
+
+
+\begin{document}
+
+\title{Supporting forced migrant resettlement with a location-based freecycling service}
+
+\author{Lucas Braun}
+\submitdate{February 2019}
+\degree{Master of Science in Geospatial Technologies}
+\studentid{lucas.braun@uji.es}
+\supervisor{Dr. Auriol Degbelo}
+\firstcosupervisor{Prof. Dr. Christian Kray}
+\secondcosupervisor{Prof. Dr. Marco Painho}
+
+\normallinespacing
+\maketitle
+% \narrowlinespacing
+
+\preface
+\input{abstract/abstract}
+\input{acknowledgements/acknowledgements}
+
+\body
+\input{introduction/introduction}
+\input{background/background}
+
+% body of thesis comes here
+\input{body/body}
+
+\input{summary/summary}
+
+% \addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{apacite}
+\bibliography{bibliography/bibliography}
+
+
+% appendices come here
+% \singlespacing
+% \setlength{\parskip}{0em}
+% \setlength{\parindent}{0em}
+\input{appendices/appendix}
+
+
+\end{document}
